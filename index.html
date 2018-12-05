@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+		<script>
+		  // Initialize Firebase
+		  var config = {
+		    apiKey: "AIzaSyBGzg_lYGUt1NUqJ5VJvy88jFkHKhdkW_0",
+		    authDomain: "presentacion-6312d.firebaseapp.com",
+		    databaseURL: "https://presentacion-6312d.firebaseio.com",
+		    projectId: "presentacion-6312d",
+		    storageBucket: "presentacion-6312d.appspot.com",
+		    messagingSenderId: "1070270195882"
+		  };
+		  firebase.initializeApp(config);
+		</script>
+	</head>
+	<body style="background: black; ">
+		
+		<section id="nav" style="min-height:15vh; background: white;">
+			<div class="mx-auto text-center">
+				<img  class="ml-3 mr-3" style="width: 60vh; height: 8vh;" src="adorno.png" alt="">
+				<img style="width: 10em; height: 8vh;" src="logo.png" alt="">
+				<img class="ml-3 mr-3"  style="width: 60vh; height: 8vh;" src="adorno.png" alt="">
+			</div>
+			<nav class="navbar navbar-expand-lg" style="color: gold;background-color:rgb(255,191,0);">
+	 		
+			  <button style="background:black;" class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			    <p  class=" navbar-toggler-icon"></p>
+			  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarNav">
+	 		 		  <ul class="navbar-nav mx-auto">
+	 		   		  <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">INICIO</a>
+	  		   		  </li>
+	  		    	  <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">NOSOTROS</a>
+	  		   		 </li>
+	  		   		 <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">NUESTROS SERVICIOS</a>
+	  		   		 </li>
+	  		   		 <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">SERVICIOS</a>
+	  		   		 </li>
+	  		   		 <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">LOYALTY PROGRAM</a>
+	  		   		 </li>
+	  		   		 <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">BLOG</a>
+	  		   		 </li>
+	  		   		 <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">PROGRAMACION ESPECIAL</a>
+	  		   		 </li>
+	  		   		  <li class="nav-item active">
+	  		    		  <a class="nav-link" style="color: black; font-size: 0.8em;" href="#">CONTACTO</a>
+	  		   		 </li>
+	   				 </ul>
+		 		 </div>
+
+			</nav>
+			
+		</section ">
+		<section style="background: black; border-bottom:solid 0.5em;" id="slider" class="border-warning">
+			<div id="carouselExampleSlidesOnly1" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100" style="height:60vh;" src="img1.jpeg" alt="First slide">
+			      <div class="card-img-overlay" style=" background: rgba(0,0,0,0.1);">
+	   				 <h5 style="color: white; font-size: 2em;" class="card-title text-center">EL HOTEL QUE ENAMORA</h5>
+	   				 
+	  				</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" style="height:60vh;" src="img2.jpeg" alt="Second slide">
+			      <div class="card-img-overlay" style=" background: rgba(0,0,0,0.1);">
+	   				 <h5 style="color: white; font-size: 2em;" class="card-title text-center">DONDE PUEDO SOÑAR</h5>
+	   				 
+	  				</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100" style="height:60vh;" src="img3.jpeg" alt="Third slide">
+			      <div class="card-img-overlay" style=" background: rgba(0,0,0,0.1);">
+	   				 <h5 style="color: white; font-size: 2em;" class="card-title text-center">IDEAL PARA DIVERTIRME Y DESCANSAR</h5>
+	   				 
+	  				</div>
+			    </div>
+			    
+			</div>
+		</section>
+		<section id="hoteles"  class="mt-5 mb-5">
+			<div class="d-flex">
+				<div class="card mx-auto" style="width: 18rem; ">
+				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel1.png" alt="Card image cap">
+				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
+	   				 <h5 style="color: white;" class="card-title">CARACAS</h5>
+	   				 
+	  				</div>
+				</div>
+				<div class="card mx-auto" style="width: 18rem;">
+				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel2.jpeg" alt="Card image cap">
+				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
+	   				 <h5 style="color: white;" class="card-title">SAN CRISTOBAL</h5>
+	   				 
+	  				</div>
+				</div>
+				<div class="card mx-auto" style="width: 18rem;">
+				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel3.jpeg" alt="Card image cap">
+				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
+	   				 <h5 style="color: white;" class="card-title">VALENCIA</h5>
+	   				 
+	  				</div>
+				</div>
+			</div><br>
+			<div class="d-flex">
+				<div class="card mx-auto" style="width: 18rem;">
+				  <img class="card-img-top" style="height:30vh; border: solid gold 2px;" src="hotel4.jpg" alt="Card image cap">
+				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
+	   				 <h5 style="color: white;" class="card-title">MARGARITA</h5>
+	   				 
+	  				</div>
+				</div>
+				<div class="card mx-auto" style="width: 18rem;">
+				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel5.jpeg" alt="Card image cap">
+				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
+	   				 <h5 style="color: white;" class="card-title">BARQUISIMETO</h5>
+	   				 
+	  				</div>
+				</div>
+				<div class="card mx-auto" style="width: 18rem;">
+				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel6.jpeg" alt="Card image cap">
+				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
+	   				 <h5 style="color: white;" class="card-title">PARAGUANA</h5>
+	   				 
+	  				</div>
+				</div>
+			</div>
+						
+		<section id="slider2" class="mt-5 mb-5 container ">
+			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			      <img class="d-block w-100  rounded" style="height:40vh;" src="img4.jpeg" alt="First slide">
+			      <div class="card-img-overlay" style="background: rgba(255,255,255,0.1);">
+	   				 <h5 style="color: gold;" class="card-title">AGUA DORADA BEACH HOTEL</h5>
+	   				 
+	  				</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100  rounded" style="height:40vh;" src="img5.jpeg" alt="Second slide">
+			      <div class="card-img-overlay" style="background: rgba(255,255,255,0.1);">
+	   				 <h5 style="color: gold;" class="card-title"> AGUA DORADA BEACH HOTEL</h5>
+	   				 
+	  				</div>
+			    </div>
+			    <div class="carousel-item">
+			      <img class="d-block w-100  rounded" style="height:40vh;" src="img6.jpeg" alt="Third slide">
+			      <div class="card-img-overlay" style="background: rgba(255,255,255,0.1);">
+	   				 <h5 style="color: gold;" class="card-title">AGUA DORADA BEACH HOTEL</h5>
+	   				 
+	  				</div>
+			    </div>
+			  </div>
+			</div>
+		</section>
+			
+		</section id="Puntuacion">
+		</section>
+		<section id="Contacto">
+			
+		</section>
+			
+	</body>
+	<footer>
+		
+	</footer>
+</html>
