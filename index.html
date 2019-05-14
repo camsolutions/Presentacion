@@ -1,197 +1,119 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-			<title>	PAGINA DE PRESENTACION</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
-		<script>
-		  // Initialize Firebase
-		  var config = {
-		    apiKey: "AIzaSyBGzg_lYGUt1NUqJ5VJvy88jFkHKhdkW_0",
-		    authDomain: "presentacion-6312d.firebaseapp.com",
-		    databaseURL: "https://presentacion-6312d.firebaseio.com",
-		    projectId: "presentacion-6312d",
-		    storageBucket: "presentacion-6312d.appspot.com",
-		    messagingSenderId: L;
-		  };
-		  firebase.initializeApp(config);
-		</script>
-	</head>
-	<body style="background: black; ">
-		
-		<section id="nav" style="min-height:15vh; background: white;">
-			<div class="mx-auto text-center">
-				<img  class="ml-3 mr-3" style="width: 60vh; height: 8vh;" src="adorno.png" alt="">
-				<img style="width: 10em; height: 8vh;" src="logo.png" alt="">
-				<img class="ml-3 mr-3"  style="width: 60vh; height: 8vh;" src="adorno.png" alt="">
-			</div>
-			<nav class="navbar navbar-expand-lg" style="color: gold;background-image:linear-gradient(to right,rgb(255,191,0), yellow,rgb(255,191,0),yellow,rgb(255,191,0));">
-	 		
-			  <button class="border border-dark navbar-toggler justify-content-start" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			    <i style="size: 3vh;" class="fa fa-bars"></i>
-			  </button>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
-					  <div class="collapse navbar-collapse" id="navbarNav">
-	 		 		  <ul class="navbar-nav mx-auto">
-	 		   		  <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">INICIO</a>
-	  		   		  </li>
-	  		    	  <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">NOSOTROS</a>
-	  		   		 </li>
-	  		   		 <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">NUESTROS SERVICIOS</a>
-	  		   		 </li>
-	  		   		 <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">SERVICIOS</a>
-	  		   		 </li>
-	  		   		 <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">LOYALTY PROGRAM</a>
-	  		   		 </li>
-	  		   		 <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">BLOG</a>
-	  		   		 </li>
-	  		   		 <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">PROGRAMACION ESPECIAL</a>
-	  		   		 </li>
-	  		   		  <li class="nav-item active">
-	  		    		  <a class="nav-link" style="color: black; font-size: 2vh;" href="#">CONTACTO</a>
-	  		   		 </li>
-	   				 </ul>
-		 		 </div>
+</head>
+<body style="font-family: 'Crimson Text', serif;
+">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#">ERAMAR CAKE</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+	      </button>
 
-			</nav>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">INICIO</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Edicion
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Menus</a>
+		          <a class="dropdown-item" href="#">Encargos</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Soporte CAM</a>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+	</nav>
+	<div  id="fecha"  class="d-flex justify-content-center mb-3">
+		  <div class="p-2 bd-highlight">
+		  	
+		  	<input class=" form-control" type="date"  aria-label="date">
+		  </div>
+  			<div class="p-2 bd-highlight">
+
+  			 <button class="btn btn-outline-success" type="submit">Fecha a Consultar</button>
+  			</div>
+  			<div class="form-check form-check-inline text-center">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+	  <label class="form-check-label" for="inlineCheckbox1">Aprobado</label>
+	</div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+	  <label class="form-check-label" for="inlineCheckbox2">Cancelado</label>
+	</div>
+	<div class="form-check form-check-inline">
+	  <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+	  <label class="form-check-label" for="inlineCheckbox3">En Proceso</label>
+	</div>
+	</div>
+
+	 
+    
+    
+	<div class="container text-center mt-3 ">
+		<h4 class=" mx-auto" style="background: skyblue; width: 70%; margin-bottom: 0px;">Tabla de Encargos</h4>
+		<table  id="Pedidos" class="table mx-auto" style="width: 70%;">
 			
-		</section ">
-		<section style="background: black; border-bottom:solid 0.5em;" id="slider" class="border-warning">
-			<div id="carouselExampleSlidesOnly1" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100" style="height:60vh;" src="img1.jpeg" alt="First slide">
-			      <div class="card-img-overlay" style=" background: rgba(0,0,0,0.1);">
-	   				 <h5 style="color: white; font-size: 7vh;" class="card-title text-center">EL HOTEL QUE ENAMORA</h5>
-	   				 
-	  				</div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" style="height:60vh;" src="img2.jpeg" alt="Second slide">
-			      <div class="card-img-overlay" style=" background: rgba(0,0,0,0.1);">
-	   				 <h5 style="color: white; font-size: 7vh;" class="card-title text-center">DONDE PUEDO SOÑAR</h5>
-	   				 
-	  				</div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100" style="height:60vh;" src="img3.jpeg" alt="Third slide">
-			      <div class="card-img-overlay" style=" background: rgba(0,0,0,0.1);">
-	   				 <h5 style="color: white; font-size: 7vh;" class="card-title text-center">IDEAL PARA DESCANSAR</h5>
-	   				 
-	  				</div>
-			    </div>
-			    
-			</div>
-		</section>
-		<section id="hoteles"  class="mt-5 mb-5">
-			<div class="d-flex">
-				<div class="card mx-auto" style="min-width: 20vh; width: 50vh; ">
-				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel1.png" alt="Card image cap">
-				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
-	   				 <h6 style="color: white;font-size: 2vh;" class="card-title">CARACAS</h6>
-	   				 
-	  				</div>
-				</div>
-				<div class="card mx-auto" style="min-width: 20vh; width: 50vh;">
-				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel2.jpeg" alt="Card image cap">
-				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
-	   				 <h6 style="color: white;font-size: 2vh;" class="card-title">SAN CRISTOBAL</h6>
-	   				 
-	  				</div>
-				</div>
-				<div class="card mx-auto" style="min-width: 20vh; width: 50vh;">
-				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel3.jpeg" alt="Card image cap">
-				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
-	   				 <h6 style="color: white;font-size: 2vh;" class="card-title">VALENCIA</h6>
-	   				 
-	  				</div>
-				</div>
-			</div><br>
-			<div class="d-flex">
-				<div class="card mx-auto" style="min-width: 20vh; width: 50vh;">
-				  <img class="card-img-top" style="height:30vh; border: solid gold 2px;" src="hotel4.jpg" alt="Card image cap">
-				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
-	   				 <h6 style="color: white;font-size: 2vh;" class="card-title">MARGARITA</h6>
-	   				 
-	  				</div>
-				</div>
-				<div class="card mx-auto" style="min-width: 20vh; width: 50vh;">
-				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel5.jpeg" alt="Card image cap">
-				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
-	   				 <h6 style="color: white; font-size: 2vh;" class="card-title">BARQUISIMETO</h6>
-	   				 
-	  				</div>
-				</div>
-				<div class="card mx-auto" style="min-width: 20vh; width: 50vh;">
-				  <img class="card-img-top" style="height: 30vh; border: solid gold 2px;" src="hotel6.jpeg" alt="Card image cap">
-				  <div class="card-img-overlay" style="background: rgba(0,0,0,0.4);">
-	   				 <h6  style="color: white;font-size: 2vh;" class="card-title">PARAGUANA</h6>
-	   				 
-	  				</div>
-				</div>
-			</div>
-						
-		<section id="slider2" class="mt-5 mb-5 container ">
-			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-			  <div class="carousel-inner">
-			    <div class="carousel-item active">
-			      <img class="d-block w-100  rounded" style="height:40vh;" src="img4.jpeg" alt="First slide">
-			      <div class="card-img-overlay" style="background: rgba(0,0,0,0.2);">
-	   				 <h5 style="color: gold;" class="card-title rounded">AGUA DORADA BEACH HOTEL</h5>
-	   				 
-	  				</div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100  rounded" style="height:40vh;" src="img5.jpeg" alt="Second slide">
-			      <div class="card-img-overlay" style="background: rgba(0,0,0,0.3);">
-	   				 <h5 style="color: gold;" class="card-title"> AGUA DORADA BEACH HOTEL</h5>
-	   				 
-	  				</div>
-			    </div>
-			    <div class="carousel-item">
-			      <img class="d-block w-100  rounded" style="height:40vh;" src="img6.jpeg" alt="Third slide">
-			      <div class="card-img-overlay" style="background: rgba(0,0,0,0.2);">
-	   				 <h5 style="color: gold;" class="card-title">AGUA DORADA BEACH HOTEL</h5>
-	   				 
-	  				</div>
-			    </div>
-			  </div>
-			</div>
-		</section>
-			
-		</section id="Puntuacion">
-		</section>
-		<section id="Contacto">
-			
-		</section>
-			
-	</body>
-	<footer>
-		<nav style=" height: 30vh; background-image:linear-gradient(to right,rgb(255,191,0), yellow,rgb(255,191,0),yellow,rgb(255,191,0));">
-		<ul style="position: relative; top: 10vh;" class="nav d-flex text-center justify-content-center">	
-		<li style="font-size: 2vh;" class="nav-item ml-5"><a style="color:black;" class="nav-link" href="">Ubicacion <br>	<i class="	glyphicon glyphicon-globe">	</i></a> </li>
-		<li style="font-size: 2vh;" class="nav-item ml-5"><a  style="color:black;"class="nav-link" href="">Telefono <br>	 <i class="glyphicon glyphicon-earphone"></i></a></li>
-		<li style="font-size: 2vh;" class="nav-item ml-5"><a style="color:black;" class="nav-link" href="">Chat en linea  <br><i class="	glyphicon glyphicon-cloud">	</i></a></li>
-		</ul>	
-			
-		<H6 style=" position:relative; top:15vh;">	PAGINA DE PRUEBA UNICAMENTE PARA PRESENTACION </H6>
-		</nav>
-	
-	</footer>
+		  <thead class="thead-dark">
+		    <tr>
+		      <th scope="col">#</th>
+		      <th scope="col">Día</th>
+		      <th scope="col">Costo</th>
+		      <th scope="col">Proceso</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th scope="row">451</th>
+		      <td>14/05/2019</td>
+		      <td>450$</td>
+		      <td>En proceso</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">424</th>
+		      <td>15/04/2019</td>
+		      <td>10$</td>
+		      <td>Aprobado</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">144</th>
+		      <td>15/06/2019</td>
+		      <td>50$</td>
+		      <td>Cancelado</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">451</th>
+		      <td>14/05/2019</td>
+		      <td>450$</td>
+		      <td>En proceso</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">424</th>
+		      <td>15/04/2019</td>
+		      <td>10$</td>
+		      <td>Aprobado</td>
+		    </tr>
+		    <tr>
+		      <th scope="row">144</th>
+		      <td>15/06/2019</td>
+		      <td>50$</td>
+		      <td>Cancelado</td>
+		    </tr>
+		  </tbody>
+		</table>
+	</div>
+
+</body>
 </html>
