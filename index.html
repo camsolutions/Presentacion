@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title></title>
+	<link rel="shortcut icon" href="Logo.png" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -9,9 +10,11 @@
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
 
 </head>
+<header><img src="fondo.jpg" style="width: 100%; height: 100vh; position: fixed; top: 0px; left: 0px; z-index: -1;"></header>
 <body style="font-family: 'Crimson Text', serif;
 ">
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+	<nav class="navbar navbar-expand-lg navbar-light">
 		  <a class="navbar-brand" href="eramarcake.ml"><img src="Logo.png" style="width: 10vh;"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
@@ -20,7 +23,7 @@
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
 		      <li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		        <a style="color: white;" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		          Edicion
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -77,11 +80,11 @@
   </div>
 </div> 
 <!-- Soporte -->
-<div class="modal fade" id="Menus" tabindex="-1" role="dialog" aria-labelledby="Soporte" aria-hidden="true">
+<div class="modal fade" id="Soporte" tabindex="-1" role="dialog" aria-labelledby="Soporte" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Menus</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Soporte CAM</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -96,14 +99,14 @@
     </div>
   </div>
 </div> 
-	<div  id="fecha"  class="d-flex justify-content-center mb-3">
+	<div style="color: white;"  id="fecha"  class="d-flex justify-content-center mb-3">
 		  <div class="p-2 bd-highlight">
 		  	
 		  	<input class=" form-control" type="date"  aria-label="date">
 		  </div>
   			<div class="p-2 bd-highlight">
 
-  			 <button class="btn btn-outline-success" type="submit">Fecha a Consultar</button>
+  			 <button class="btn btn-outline-success" style="color: white;" type="submit">Fecha a Consultar</button>
   			</div>
   			<div class="form-check form-check-inline text-center">
 	  <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -124,9 +127,9 @@
     
 	<div class="container text-center mt-3 ">
 		<h4 class=" mx-auto" style="background: skyblue; width: 70%; margin-bottom: 0px;">Tabla de Encargos</h4>
-		<table  id="Pedidos" class="table mx-auto" style="width: 70%;">
+		<table  id="Pedidos" class="table mx-auto" style=" width: 70%;">
 			
-		  <thead class="thead-dark">
+		  <thead class="" style="background: white;">
 		    <tr>
 		      <th scope="col">#</th>
 		      <th scope="col">Día</th>
@@ -134,7 +137,7 @@
 		      <th scope="col">Proceso</th>
 		    </tr>
 		  </thead>
-		  <tbody>
+		  <tbody style="color: white;">
 		    <tr>
 		      <th scope="row">451</th>
 		      <td>14/05/2019</td>
