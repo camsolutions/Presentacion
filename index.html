@@ -12,23 +12,20 @@
 <body style="font-family: 'Crimson Text', serif;
 ">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-		  <a class="navbar-brand" href="#">ERAMAR CAKE</a>
+		  <a class="navbar-brand" href="eramarcake.ml"><img src="Logo.png" style="width: 10vh;"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 	      </button>
 
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 		    <ul class="navbar-nav mr-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">INICIO</a>
-		      </li>
 		      <li class="nav-item dropdown">
 		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		          Edicion
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Menus</a>
-		          <a class="dropdown-item" href="#">Encargos</a>
+		           <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#Menus"> Menus </a>
+		          <a class="dropdown-item" href="#"  data-toggle="modal" data-target="#Promociones"> Encargos </a>
 		          <div class="dropdown-divider"></div>
 		          <a class="dropdown-item" href="#">Soporte CAM</a>
 		        </div>
@@ -36,6 +33,50 @@
 		    </ul>
 		  </div>
 	</nav>
+
+	<!-- Modals -->
+
+<!-- Promociones -->
+<div class="modal fade" id="Promociones" tabindex="-1" role="dialog" aria-labelledby="Promociones" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Promociones</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Actualizar Datos</button>
+      </div>
+    </div>
+  </div>
+</div> 
+<!-- Menus -->
+<div class="modal fade" id="Menus" tabindex="-1" role="dialog" aria-labelledby="Menus" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Menus</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Actualizar Datos</button>
+      </div>
+    </div>
+  </div>
+</div> 
+
 	<div  id="fecha"  class="d-flex justify-content-center mb-3">
 		  <div class="p-2 bd-highlight">
 		  	
